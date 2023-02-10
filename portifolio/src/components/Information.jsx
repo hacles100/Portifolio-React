@@ -7,6 +7,7 @@ const Information = () => {
 
     return(
         <section id="information">
+            
             <div className="info-card">
                 <AiFillPhone id="phone-icon"/>
                 <div>
