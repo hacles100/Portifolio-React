@@ -4,7 +4,7 @@ import '../styles/components/maincontent.sass'
 const MainContent = () => {
 
     return(
-        <div>Main Content</div>
+        <main id="main-content">Main Content</main>
     )
 }
 
