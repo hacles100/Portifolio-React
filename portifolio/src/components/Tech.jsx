@@ -5,7 +5,8 @@ import {
     DiJsBadge,
     DiNodejsSmall,
     DiMysql,
-    DiReact
+    DiReact,
+    DiBootstrap
 } from 'react-icons/di'
 
 import '../styles/components/tech.sass'
