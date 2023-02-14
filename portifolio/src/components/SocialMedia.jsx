@@ -15,14 +15,18 @@ const socialMedias = [
     },
 ]
 
+const openInNewTab = (url) => {
+    window.open(url, '_blank', 'noreferrer');
+  };
 
 const SocialMedia = () => {
 
     return(
        <section id="social-media">
          {socialMedias.map((medias) => (
-            <a href="#" className="social-btn" id={medias.name} key={medias.name}>
-                {medias.icon}
+            <a href="#" className="social-btn" id={medias.name} key={medias.name} onClick={() => openInNewTab('https://www.linkedin.com/in/h%C3%A9ricles-rocha/')} >
+                {medias.icon} 
+                
             </a>
          ))}
        </section>
