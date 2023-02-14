@@ -12,7 +12,7 @@ const Information = () => {
                 <AiFillPhone id="phone-icon"/>
                 <div>
                     <h3>Phone</h3>
-                    <p>(+238)5850628</p>
+                    <p>( +238 ) 5850628</p>
                 </div>
             </div>
 
